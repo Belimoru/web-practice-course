@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Селектори та специфічність CSS</title>
+    <style>
+p {
+    font-family: Arial, sans-serif;
+    color:blue;
+}
+
+.main-heading {
+    font-size: 3rem;
+    text-align: center;
+    text-decoration-line: line-through;
+}
+
+#example {
+    text-decoration: underline;
+    color: white;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.highlight {
+    background-color: yellow;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+section > h2 {
+    color: blue;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="main-heading">Селектори та специфічність CSS</h1>
+    </header>
+    <main>
+        <section>
+            <h2 id="example">Приклади</h2>
+            <p>Це приклад тексту, <span class="highlight">виділеного</span> за допомогою CSS.</p>
+        </section>
+    </main>
+</body>
+</html>
