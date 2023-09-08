@@ -1,0 +1,34 @@
+h1 {
+  color: #ff6600;
+}
+
+a {
+  color: #ff6600;
+}
+a:hover {
+  color: #993d00;
+}
+
+.info {
+  background: DarkGray;
+  -webkit-box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
+          box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
+  color: #ff0000;
+}
+
+.info2 {
+  background: DarkGreen;
+  -webkit-box-shadow: 0 0 1px rgba(0, 100, 0, 0.25);
+          box-shadow: 0 0 1px rgba(0, 100, 0, 0.25);
+  color: #ff0000;
+}
+
+.text2, .text {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.text2 {
+  border-color: green;
+}
